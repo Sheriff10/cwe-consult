@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext, useEffect } from "react";
+import MobileMenu from "./components/MobileMenu";
+import {
+  Nav,
+  Hero,
+  Statistics,
+  About,
+  Expertise,
+  Contact,
+  Footer,
+} from "./components/page";
+import { AppContext } from "./contexts/AppContext";
 
 function App() {
+  const { isNavOpen } = useContext(AppContext);
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.classList.toggle("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  }, [isNavOpen]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className="font-Montserrat overflow-x-hidden text-white bg-black">
+        <div className="min-h-screen">
+          <Nav />
+          <Hero />
+        </div>
+        <Statistics />
+        <About />
+        <Expertise />
+        <Contact />
+        <Footer />
+      </section>
+      <MobileMenu />
+    </>
   );
 }
 
