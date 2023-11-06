@@ -20,7 +20,7 @@ function Contact() {
           </div>
 
           <form>
-            <div className="flex gap-3">
+            <div className="flex flex-col gap-4 md:flex-row">
               <input
                 type="text"
                 name="name"
