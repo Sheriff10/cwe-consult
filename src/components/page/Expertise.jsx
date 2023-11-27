@@ -38,7 +38,7 @@ function Expertise() {
   ];
 
   return (
-    <section className=" py-16" id="expertise">
+    <section className="bg-neutral-950 py-16" id="expertise">
       <div className="container mx-auto px-4">
         <TitleTag title={"Expertise"} />
         <p className="text-lg font-semibold  mb-10">My areas of Expertise</p>

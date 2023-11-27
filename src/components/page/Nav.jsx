@@ -9,7 +9,7 @@ function Nav() {
   const navLinks = ["about", "expertise"];
   const { toggleNav } = useContext(AppContext);
   return (
-    <header className="bg-black text-white fixed top-0 w-full z-[999]">
+    <header className="bg-black bg-opacity-50 backdrop-blur-xl text-white fixed top-0 w-full z-[999]">
       <nav className="container mx-auto px-4 py-2.5 flex items-center justify-between">
         <div className="logo flex items-center gap-0.5">
           <img src={logo} alt="CWE Logo" className="w-10" />{" "}

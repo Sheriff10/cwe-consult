@@ -8,3 +8,11 @@
   font-family: SuprapowerSE;
   src: url("./assets/fonts/SuprapowerSE-Heavy.woff");
 }
+
+.hero {
+  background: url('../public/contact.jpeg') no-repeat;
+  background-size: cover;
+}
+.hero .wrap{
+  background: #000000db;
+}
