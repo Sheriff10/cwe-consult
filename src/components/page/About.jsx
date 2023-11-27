@@ -14,7 +14,7 @@ function About() {
           <div>
             <TitleTag title={"About Me"} />
             <p className="text-lg font-semibold  mb-2">
-              Meet Crypto Wealth Embassy
+              Meet CWE Consult
             </p>
             <div className="flex flex-col gap-6">
               <p>
