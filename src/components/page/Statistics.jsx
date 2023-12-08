@@ -7,10 +7,10 @@ function Statistics() {
   const [twitterFollowers, setTwitterFollowers] = useState(0);
   const [yearsOfExperience, setYearsOfExperience] = useState(0);
 
-  const yearsOfExperienceTarget = 11;
+  const yearsOfExperienceTarget = 4;
   const awardsTarget = 14;
-  const projectsPromotedTarget = 1400;
-  const twitterFollowersTarget = 50000;
+  const projectsPromotedTarget = 150;
+  const twitterFollowersTarget = 50;
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -73,19 +73,13 @@ function Statistics() {
           </div>
           <div>
             <span className="text-3xl md:text-4xl lg:text-5xl font-bold">
-              {awards}
-            </span>{" "}
-            Award Winner
-          </div>
-          <div>
-            <span className="text-3xl md:text-4xl lg:text-5xl font-bold">
               {projectsPromoted}
             </span>{" "}
             Project promoted
           </div>
           <div>
             <span className="text-3xl md:text-4xl lg:text-5xl font-bold">
-              {twitterFollowers}+{" "}
+              {twitterFollowers}K+{" "}
             </span>
             X/Twitter followers
           </div>

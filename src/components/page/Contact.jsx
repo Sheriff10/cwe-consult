@@ -19,7 +19,7 @@ function Contact() {
             </p>
           </div>
 
-          <form>
+          <form action="mailto:ibrahimsheriff999@gmail.com">
             <div className="flex flex-col gap-4 md:flex-row">
               <input
                 type="text"

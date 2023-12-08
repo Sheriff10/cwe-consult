@@ -5,6 +5,7 @@ import {
   FaDollarSign,
   FaBullseye,
   FaFileAlt,
+  FaSearch,
 } from "react-icons/fa";
 import { ExpertiseCard, TitleTag } from "../reusables";
 
@@ -21,14 +22,14 @@ function Expertise() {
       description: "Proficient in blockchain development using Solidity.",
     },
     {
-      icon: <FaDollarSign size={58} />,
-      title: "DeFi-Degen Trader",
-      description: "Experienced in decentralized finance trading.",
+      icon: <FaSearch size={58} />,
+      title: "Project Advisor",
+      description: "Skilled in providing project guidance and overseeing project management.",
     },
     {
       icon: <FaBullseye size={58} />,
-      title: "Marketer",
-      description: "Skilled in cryptocurrency marketing strategies.",
+      title: "Promoter",
+      description: "Skilled in cryptocurrency promotion strategies.",
     },
     {
       icon: <FaFileAlt size={58} />,

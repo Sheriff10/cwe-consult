@@ -19,7 +19,7 @@ function About() {
                   <div className="flex flex-col gap-6">
                      <p>
                         Crypto Wealth Embassy is the founder of Defitiger token
-                        ($DTGI), a decentralized meme asset driven by a
+                        ($DTG), a decentralized meme asset driven by a
                         community of Decentralized Finance enthusiasts with a
                         unique love for Felines. He's also a founding member of
                         the Sir Mapy and Co (SMC) DAO.
@@ -36,9 +36,7 @@ function About() {
                         aspects, and effective project management practices
                      </p>
                      <p>
-                        He has helped in onboarding Nigerians and Africans to
-                        the crypto industry, teaching and adding value to
-                        investors. He's a firm believer in leveraging
+                        He's a firm believer in leveraging
                         opportunities in the Web 3.0 space for growth and
                         personal development.
                      </p>
