@@ -4,7 +4,7 @@ import { Button, TitleTag } from "../reusables";
 import { FaTelegram, FaTwitter } from "react-icons/fa";
 
 function About() {
-   const telegramUrl = "https://t.me/CWEmbassy";
+   const telegramUrl = "https://t.me/CWEmbassy_DTG";
    const twitterUrl = "https://twitter.com/CWEmbassy";
 
    return (
